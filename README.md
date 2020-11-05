@@ -1,1 +1,1 @@
-此项目前端使用adminlet框架，后端使用python3 django语言编写。
+此项目前端使用adminlte框架，后端使用python3 django语言编写。
