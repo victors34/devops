@@ -1,0 +1,16 @@
+db.sqlite3
+/venv/
+/assets/migrations/
+/login/migrations/
+/statis/migrations/
+/monitor/migrations/
+/deploy/migrations/
+/templates/statis/fe_tag.html
+/templates/statis/server_tag.html
+__pycache__
+/assets/__pycache__/
+/login/__pycache__/
+/statis/__pycache__/
+/monitor/__pycache__/
+/deploy/__pycache__/
+/devops/settings.py

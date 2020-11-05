@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}CICD{% endblock %}
+{% block css %}{% endblock %}
+{% block breadcrumb %}
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Jenkins
+        <small>deploy部署</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-pie-chart"></i> jenkins</a></li>
+        <li class="active">deploy部署</li>
+      </ol>
+    </section>
+{% endblock %}
+
+{% block content %}
+
+<!DOCTYPE HTML>
+<html>
+    <iframe src="http://202.75.221.10:20019/jenkins/job/test/" height="800" width="1200" frameborder="0">
+    </iframe>
+</html>
+
+{% endblock %}

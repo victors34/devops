@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Kubernetes集群监控{% endblock %}
+{% block css %}{% endblock %}
+{% block breadcrumb %}
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Grafana
+        <small>grafana</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-pie-chart"></i> grafana</a></li>
+        <li class="active">监控面板</li>
+      </ol>
+    </section>
+{% endblock %}
+
+{% block content %}
+
+<!DOCTYPE HTML>
+<html>
+    <iframe src="http://202.75.221.10:20019/d/YI_imCYZz/morebitji-qun-jian-kong?orgId=1&refresh=15m&var-clusterId=&var-HostIp=All&kiosk=tv" height="800" width="1200" frameborder="0">
+    </iframe>
+</html>
+
+{% endblock %}
