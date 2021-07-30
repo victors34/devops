@@ -13,4 +13,3 @@ __pycache__
 /statis/__pycache__/
 /monitor/__pycache__/
 /deploy/__pycache__/
-/devops/settings.py
