@@ -5,8 +5,6 @@ db.sqlite3
 /statis/migrations/
 /monitor/migrations/
 /deploy/migrations/
-/templates/statis/fe_tag.html
-/templates/statis/server_tag.html
 __pycache__
 /assets/__pycache__/
 /login/__pycache__/

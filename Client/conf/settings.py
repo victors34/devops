@@ -4,7 +4,7 @@ import os
 
 # 远端接收数据的服务器
 Params = {
-    "server": "202.75.221.10:20019",
+    "server": "devops.ops.morebit.com.cn",
     "port": 80,
     'url': '/assets/report/',
     'request_timeout': 30,

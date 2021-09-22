@@ -42,8 +42,8 @@ def login(request):
     return render(request, 'login/login.html', locals())
 
 def register(request):
-    if not request.session.get('is_login', None):
-        return redirect('/login/')
+#    if not request.session.get('is_login', None):
+#        return redirect('/login/')
     if request.method == 'POST':
         register_form = forms.RegisterForm(request.POST)
         message = "请检查填写的内容！"
